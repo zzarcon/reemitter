@@ -1,6 +1,6 @@
 {
   "name": "reemitter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Type safe event emitter",
   "main": "dist/es5/index.js",
   "jsnext:main": "dist/es2015/index.js",
