@@ -1,0 +1,43 @@
+{
+  "name": "reemitter",
+  "version": "0.0.1",
+  "description": "Type safe event emitter",
+  "main": "dist/es5/index.js",
+  "jsnext:main": "dist/es2015/index.js",
+  "module": "dist/es2015/index.js",
+  "types": "dist/es5/index.d.ts",
+  "engines": {
+    "node": ">=8.5.0"
+  },
+  "scripts": {
+    "bootstrap": "ts-react-toolbox init",
+    "dev": "ts-react-toolbox dev",
+    "test": "ts-react-toolbox test",
+    "test:ci": "ts-react-toolbox test --runInBand --coverage",
+    "build": "ts-react-toolbox build",
+    "release": "ts-react-toolbox release",
+    "lint": "ts-react-toolbox lint",
+    "static": "ts-react-toolbox publish",
+    "format": "ts-react-toolbox format",
+    "analyze": "ts-react-toolbox analyze"
+  },
+  "devDependencies": {
+    "ts-react-toolbox": "^0.2.2"
+  },
+  "repository": "git@github.com:zzarcon/reemitter.git",
+  "author": "Hector Leon Zarco Garcia <hezarco@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "event",
+    "emitter",
+    "eventemitter",
+    "event-emitter",
+    "on",
+    "off",
+    "emit",
+    "type-safe"
+  ]
+}

@@ -1,2 +1,8 @@
 # reemitter
-Type safe event emitter 
+> Type safe event emitter 
+
+### Features
+
+* Type safe
+* Dependency free
+* Lightweight
