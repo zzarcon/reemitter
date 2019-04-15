@@ -1,5 +1,5 @@
 {
-  "name": "re-emitter",
+  "name": "@zzarcon/reemitter",
   "version": "0.0.2",
   "description": "Type safe event emitter",
   "main": "dist/es5/index.js",
